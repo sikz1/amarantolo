@@ -2,11 +2,11 @@
 const galleries = {
   location_gallery: {
     title: "La location",
-    imgs: ["orto.png", "casa.jpg", "cibo.jpg"],
+    imgs: ["cristo.jpg", "casa.jpg", "cibo.jpg"],
   },
   produce_gallery: {
     title: "I nostri prodotti",
-    imgs: ["orto.png", "casa.jpg", "cibo.jpg"],
+    imgs: ["orto.png", "grotta.jpg", "cala.jpg"],
   },
   products_gallery: {
     title: "I nostri servizi",
@@ -22,7 +22,7 @@ const galleries = {
   },
   views_gallery: {
     title: "La nostra terra",
-    imgs: ["tramonto.jpg", "cibo.jpg", "casa.jpg"],
+    imgs: ["casa.jpg", "grotta.jpg", "territorio.jpg"],
   }
 }
 

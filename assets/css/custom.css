@@ -177,6 +177,11 @@ a:hover {
   margin: auto 0 !important;
 }
 
+.carousel-inner img {
+  height: 36vh !important;
+  max-height: 36vh !important;
+}
+
 .modal-header {
   border: 0;
 }
