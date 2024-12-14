@@ -29,7 +29,7 @@ const galleries = {
 const comments = [
   { 
     author: "Giorgio Meloni",
-    comment: "La patria che in Maratea riconosce la sua tirrenica perla, elogia la maschia determinazione e il cattolico improperio di chi fortissimamente strappa un reddito alla vile roccia alburna"
+    comment: "La patria che in Maratea riconosce la sua tirrenica perla, elogia la maschia determinazione e il cattolico improperio di chi fortissimamente strappa un reddito ad una roccia vile e alburna"
   },
   { 
     author: "Bombolo",
