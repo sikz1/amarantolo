@@ -120,35 +120,35 @@ a:hover {
 .o75 { opacity: .75 !important }
 
 .btl-rnd {
-  border-top-left-radius: 6rem;
+  border-top-left-radius: 6rem !important
 }
 
 .btl-rnd-sm {
-  border-top-left-radius: 3rem;
+  border-top-left-radius: 3rem !important
 }
 
 .btr-rnd {
-  border-top-right-radius: 6rem;
+  border-top-right-radius: 6rem !important
 }
 
 .btr-rnd-sm {
-  border-top-right-radius: 3rem;
+  border-top-right-radius: 3rem !important
 }
 
 .bbl-rnd {
-  border-bottom-left-radius: 6rem;
+  border-bottom-left-radius: 6rem !important
 }
 
 .bbl-rnd-sm {
-  border-bottom-left-radius: 3rem;
+  border-bottom-left-radius: 3rem !important
 }
 
 .bbr-rnd {
-  border-bottom-right-radius: 6rem;
+  border-bottom-right-radius: 6rem !important
 }
 
 .bbr-rnd-sm {
-  border-bottom-right-radius: 3rem;
+  border-bottom-right-radius: 3rem !important
 }
 
 .home-btn {
@@ -178,11 +178,11 @@ a:hover {
   margin: auto 0 !important;
 }
 
-/*.carousel-inner img {
-  height: 30vh !important;
-  width: auto !important;
+.carousel-inner img {
+/*  height: 30vh !important;*/
+/*  width: 100vh !important;*/
 }
-*/
+
 .modal-header {
   border: 0;
 }
