@@ -1,0 +1,274 @@
+body {
+  background-color: #c0c1a2;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  font-family: "Forum", serif;
+  font-weight: 100;
+  overflow-x: hidden !important ;
+}
+
+ul { list-style: none }
+
+a {
+  text-decoration: underline;
+  color: #333 !important;
+}
+a:hover {
+  color: #aaa !important;
+}
+
+.navbar {
+/*  min-height: 68px;*/
+  background: rgba(32,32,32, 0.81) !important;
+  color: #fff !important;
+}
+
+.navbar a {
+  color: #fff !important;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.nav-item {
+  padding: 0 2rem;
+}
+
+.nav-offer {
+  background-color: #e57a36;
+  border-radius: 3rem;
+}
+
+.bg {
+  padding: 0 !important;
+  margin: 0 !important;
+  background-color: #fff;
+  background-position: center center; 
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.welcome {
+  background-image: url('/imgs/home-mare.jpg');
+}
+
+.yoga-box {
+  margin: 0 1rem !important;;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 1rem 0 0 0;
+}
+
+.yoga-box-1 {
+  background-image: url('/imgs/yoga-box-2.png');
+}
+
+.yoga-box-2 {
+  background-image: url('/imgs/yoga-box-1.png'); 
+}
+
+.yoga-box-3 {
+  background-image: url('/imgs/yoga-box-2.png'); 
+}
+
+.logo-small {
+  max-height: 46px;
+  margin-top: 0px;
+}
+
+.home-brand-n {
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 0;
+  color: #fff;
+  text-shadow: 0px 0px 5px black !important;
+}
+
+.home-brand-w {
+  font-size: .84rem;
+  font-weight: 400;
+  color: #fff;
+  text-shadow: 0px 0px 5px black !important;
+}
+
+.home-logo-wrapper {
+  margin-top: 30vh !important;
+}
+
+.home-logo {
+  width: 18vh !important;
+}
+
+.info-box {
+  padding: 2rem 3rem !important;
+  color: #555;
+  font-size: 1.2rem;
+  text-align: justify;
+}
+
+.info-box.dark {
+  background-color: #333;
+  color: #fff;
+}
+
+.info-box.light {
+  background-color: #d0d2d7;
+}
+
+.o75 { opacity: .75 !important }
+
+.btl-rnd {
+  border-top-left-radius: 6rem;
+}
+
+.btl-rnd-sm {
+  border-top-left-radius: 3rem;
+}
+
+.btr-rnd {
+  border-top-right-radius: 6rem;
+}
+
+.btr-rnd-sm {
+  border-top-right-radius: 3rem;
+}
+
+.bbl-rnd {
+  border-bottom-left-radius: 6rem;
+}
+
+.bbl-rnd-sm {
+  border-bottom-left-radius: 3rem;
+}
+
+.bbr-rnd {
+  border-bottom-right-radius: 6rem;
+}
+
+.bbr-rnd-sm {
+  border-bottom-right-radius: 3rem;
+}
+
+.home-btn {
+  margin: 2rem auto -1.2rem auto !important;
+  opacity: .5;
+}
+
+.home-btn a {
+  color: #fff !important;
+}
+
+.home-btn-dark a {
+  color: #333 !important;
+}
+
+.ornament {
+  text-align: center;
+  font-size: 1.2rem !important;
+  color: #777;
+}
+
+.ornament.dark {
+  color: #aaa;
+}
+
+.carousel-inner {
+  margin: auto 0 !important;
+}
+
+/*.carousel-inner img {
+  height: 30vh !important;
+  width: auto !important;
+}
+*/
+.modal-header {
+  border: 0;
+}
+
+.modal-header .btn-close { 
+  background: #333 !important;
+  color: #fff !important;
+}
+
+.modal-content {
+  background-color: #333;
+  color: #fff;
+}
+
+.modal-content img {
+/*  height: 78vh;*/
+/*  width: auto !important;*/
+  width: 78vw !important;
+  height: auto !important;
+  margin: 0 auto;
+}
+
+.modal-title { opacity: .75 }
+
+#ritiri {
+  padding: 3rem 2rem 1.6rem 2rem;
+  background-color: #e57a36;
+}
+
+.offer-box {
+  width: 90%;
+  padding: 1rem 2rem 0 2rem;
+  margin: 4.2rem auto 0 auto;
+  background-color: #fff;
+  opacity: .9;
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+}
+
+.offer-title {
+  color: #fff;
+  font-size: 2.2rem;
+  font-weight: bold;
+}
+
+.offer-subtitle {
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.price-box {
+  background-color: #000;
+  opacity: .8;
+  color: #fff;
+  padding: .4rem 0;
+  margin: 0 -3rem;
+}
+
+p.price-cost {
+  font-size: 1.8rem;
+  font-weight: bold;
+  line-height: 1.8rem;
+}
+
+p.price-sub {
+  font-size: 1rem;
+  line-height: 1.2rem;
+}
+
+.about-us .quote {
+  font-size: 3rem;
+  line-height: 0;
+}
+
+.about-us h3 {
+  font-weight: 100;
+  color: #bbb;
+}
+
+.about-us h5 {
+  color: #888;
+}
+
+.about-us .quotation { 
+  font-size: 2.2rem;
+  line-height: 0rem;
+}
