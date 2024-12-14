@@ -3,32 +3,26 @@ const galleries = {
   location_gallery: {
     title: "La location",
     imgs: ["orto.png", "casa.jpg", "cibo.jpg"],
-    class: "bbr-rnd"
   },
   produce_gallery: {
     title: "I nostri prodotti",
     imgs: ["orto.png", "casa.jpg", "cibo.jpg"],
-    class: "bbl-rnd"
   },
   products_gallery: {
     title: "I nostri servizi",
     imgs: ["territorio.jpg", "tramonto.jpg", "orto.png"],
-    class: "bbl-rnd btr-rnd"
   },  
   interior_gallery: {
     title: "Gli interni",
     imgs: ["casa.jpg", "alloggi.jpg", "cibo.jpg"],
-    class: "bbl-rnd btl-rnd"
   },
   exterior_gallery: {
     title: "Gli esterni",
     imgs: ["tramonto.jpg", "orto.png", "alloggi.jpg"],
-    class: "btr-rnd bbr-rnd"
   },
   views_gallery: {
     title: "La nostra terra",
     imgs: ["tramonto.jpg", "cibo.jpg", "casa.jpg"],
-    class: "bbr-rnd btr-rnd"
   }
 }
 
@@ -72,7 +66,6 @@ function populate_gallery(gallery_id, gallery, caller) {
   lmnt = document.getElementById(gallery_id).getElementsByClassName('carousel-inner')[0]
   if (!lmnt) { return false }
   src = caller ? caller.getAttribute('src').split('/').pop() : null
-  kls = galleries[gallery]['class']
 
   for (idx in galleries[gallery]['imgs']) {
     if (src)
@@ -84,7 +77,7 @@ function populate_gallery(gallery_id, gallery, caller) {
     item.classList = "carousel-item " + act
 
     img = document.createElement("img")
-    img.classList = "bd-placeholder-img bd-placeholder-img-lg d-block w-100 " + kls
+    img.classList = "bd-placeholder-img bd-placeholder-img-lg d-block w-100"
     img.onclick = function() { show_gallery(gallery, this) }
     img.src = "/amarantolo/imgs/" + galleries[gallery]['imgs'][idx]
 
