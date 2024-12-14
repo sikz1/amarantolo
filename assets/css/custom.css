@@ -50,7 +50,7 @@ a:hover {
 }
 
 .welcome {
-  background-image: url('/imgs/home-mare.jpg');
+  background-image: url('/amarantolo/imgs/home-mare.jpg');
 }
 
 .yoga-box {
@@ -62,15 +62,15 @@ a:hover {
 }
 
 .yoga-box-1 {
-  background-image: url('/imgs/yoga-box-2.png');
+  background-image: url('/amarantolo/imgs/yoga-box-2.png');
 }
 
 .yoga-box-2 {
-  background-image: url('/imgs/yoga-box-1.png'); 
+  background-image: url('/amarantolo/imgs/yoga-box-1.png'); 
 }
 
 .yoga-box-3 {
-  background-image: url('/imgs/yoga-box-2.png'); 
+  background-image: url('/amarantolo/imgs/yoga-box-2.png'); 
 }
 
 .logo-small {
