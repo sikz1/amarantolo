@@ -79,7 +79,7 @@ function populate_gallery(gallery_id, gallery, caller) {
     img = document.createElement("img")
     img.classList = "bd-placeholder-img bd-placeholder-img-lg d-block w-100 bbl-rnd"
     img.onclick = function() { show_gallery(gallery, this) }
-    img.src = "/amarantolo/assets/imgs/" + galleries[gallery]['imgs'][idx]
+    img.src = "/amarantolo/imgs/" + galleries[gallery]['imgs'][idx]
 
     item.appendChild(img)
     lmnt.appendChild(item)
