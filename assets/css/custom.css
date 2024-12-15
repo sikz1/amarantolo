@@ -168,23 +168,18 @@ a:hover {
   color: #aaa;
 }
 
-.carousel-inner {
-/*  margin: 0 auto !important;*/
-}
-
 .carousel-item {
   height: 42vh !important;
   max-height: 42vh !important;
 }
 
-.carousel-item img {
-  margin: 0 auto !important;
-  width: auto !important;
-}
-
 #active_gallery .carousel-item {
   height: 78vh !important;
   max-height: 78vh !important;
+}
+
+#active_gallery .carousel-item img {
+  height: auto !important;
 }
 
 .modal-header {
