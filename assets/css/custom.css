@@ -38,7 +38,8 @@ a:hover {
   background-color: #e57a36 !important;
 }
 
-.bg {
+.welcome {
+  background-image: url('/amarantolo/imgs/home-mare.jpg');
   padding: 0 !important;
   margin: 0 !important;
   background-color: #fff;
@@ -46,10 +47,6 @@ a:hover {
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
-}
-
-.welcome {
-  background-image: url('/amarantolo/imgs/home-mare.jpg');
 }
 
 .yoga-box {
@@ -92,12 +89,10 @@ a:hover {
   text-shadow: 0px 0px 5px black !important;
 }
 
-.home-logo-wrapper {
-  margin-top: 30vh !important;
-}
-
 .home-logo {
-  width: 18vh !important;
+  width: 42vw;
+  max-width: 192px;
+  margin: 24vh auto 2vh auto !important;
 }
 
 .info-box {
