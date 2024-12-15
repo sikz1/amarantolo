@@ -178,8 +178,8 @@ a:hover {
   max-height: 78vh !important;
 }
 
-#active_gallery .carousel-item img {
-  height: auto !important;
+.carousel-item img {
+  height: 100% !important;
 }
 
 .modal-header {

@@ -77,7 +77,7 @@ function populate_gallery(gallery_id, gallery, caller) {
     item.classList = "carousel-item " + act
 
     img = document.createElement("img")
-    img.classList = "bd-placeholder-img bd-placeholder-img-lg d-block position-absolute top-50 start-50 translate-middle object-fit-cover"
+    img.classList = "bd-placeholder-img bd-placeholder-img-lg d-block position-absolute top-50 start-50 translate-middle"
 
     img.onclick = function() { show_gallery(gallery, this) }
     img.src = "/amarantolo/imgs/" + galleries[gallery]['imgs'][idx]
