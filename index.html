@@ -75,7 +75,7 @@
             <!-- content left -->
 
             <div class="col-12">
-              <div id="location_gallery" class="carousel slide" data-bs-ride="carousel">
+              <div id="location_gallery" class="carousel slide text-center" data-bs-ride="carousel">
                 <div class="carousel-inner bbr-rnd">
                   <!-- dynamically populated -->
                 </div>
@@ -136,7 +136,7 @@
             </div>        
 
             <div class="col-12">
-              <div id="interior_gallery" class="carousel slide" data-bs-ride="carousel">
+              <div id="interior_gallery" class="carousel slide text-center" data-bs-ride="carousel">
                 <div class="carousel-inner bbl-rnd btl-rnd">
                   <!-- dynamically populated -->
                 </div>
@@ -276,7 +276,7 @@
             <!-- content left -->
   
             <div class="col-12">
-              <div id="views_gallery" class="carousel slide">
+              <div id="views_gallery" class="carousel slide text-center">
                 <div class="carousel-inner bbr-rnd btr-rnd">
                   <!-- dynamically populated -->
                 </div>
@@ -313,7 +313,7 @@
             </div>
 
             <div class="col-12">
-              <div id="exterior_gallery" class="carousel slide" data-bs-ride="carousel">
+              <div id="exterior_gallery" class="carousel slide text-center" data-bs-ride="carousel">
                 <div class="carousel-inner btr-rnd bbr-rnd">
                   <!-- dynamically populated -->
                 </div>
@@ -353,7 +353,7 @@
             </div>
 
             <div class="col-12">
-              <div id="products_gallery" class="carousel slide" data-bs-ride="carousel">
+              <div id="products_gallery" class="carousel slide text-center" data-bs-ride="carousel">
                 <div class="carousel-inner bbl-rnd btr-rnd">
                   <!-- dynamically populated -->
                 </div>
@@ -382,7 +382,7 @@
             </div>
 
             <div class="col-12">
-              <div id="produce_gallery" class="carousel slide" data-bs-ride="carousel">
+              <div id="produce_gallery" class="carousel slide text-center" data-bs-ride="carousel">
                 <div class="carousel-inner bbl-rnd">
                   <!-- dynamically populated -->
                 </div>
@@ -461,12 +461,14 @@
     <div id="gallery_modal" class="modal fade" tabindex="-1" aria-labelledby="gallery-title" aria-hidden="true">
       <div class="modal-dialog modal-fullscreen modal-dialog-centered">
         <div class="modal-content">
+<!-- 
           <div class="modal-header pt-2 pb-2">
             <h3 class="modal-title" id="gallery-title"></h3>
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><i class="fa-solid fa-circle-xmark"></i></button>
           </div>
-          <div class="modal-body bg-black">
-            <div id="active_gallery" class="carousel slide">
+ -->
+          <div class="modal-body bg-black p-0">
+            <div id="active_gallery" class="carousel slide text-center">
               <div class="carousel-inner" id="gallery-content">
               </div>
               <button class="carousel-control-prev" type="button" data-bs-target="#active_gallery" data-bs-slide="prev">
@@ -478,6 +480,10 @@
                 <span class="visually-hidden">Next</span>
               </button>
             </div>            
+          </div>
+          <div class="modal-footer pt-2 pb-2 position-relative">
+            <h3 class="modal-title" id="gallery-title"></h3>
+            <button type="button" class="btn-close position-absolute bottom-0 end-0 m-0 p-0 me-3 h-100" data-bs-dismiss="modal" aria-label="Close"><i class="fa-solid fa-circle-xmark"></i></button>
           </div>
         </div>
       </div>

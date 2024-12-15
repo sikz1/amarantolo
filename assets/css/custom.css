@@ -168,38 +168,40 @@ a:hover {
   color: #aaa;
 }
 
-.carousel-item {
+.carousel-content {
   height: 42vh !important;
   max-height: 42vh !important;
 }
 
-#active_gallery .carousel-item {
-  height: 78vh !important;
-  max-height: 78vh !important;
+.carousel-item img {
+  height: 42vh !important;
 }
 
-.carousel-item img {
+#active_gallery .carousel-content {
+  height: 100% !important;
+  max-height: 100% !important;
+}
+
+#active_gallery .carousel-item img {
+  height: auto !important;
   width: 100% !important;
 }
 
-.modal-header {
-  border: 0;
+.modal-footer {
+  justify-content: flex-start;
 }
 
-.modal-header .btn-close { 
+.modal-footer .btn-close { 
   background: #333 !important;
-  color: #fff !important;
+  color: #e57a36 !important;
+  line-height: 0;
+  font-size: 2rem;
+  opacity: 1;
 }
 
 .modal-content {
   background-color: #333;
   color: #fff;
-}
-
-.modal-content img {
-  width: 78vw !important;
-  height: auto !important;
-  margin: 0 auto;
 }
 
 .modal-title { opacity: .75 }
