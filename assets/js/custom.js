@@ -105,6 +105,18 @@ function show_gallery(gallery, caller) {
 }
 
 document.addEventListener("DOMContentLoaded", function() {
+  navcnt = document.querySelector('#navbar-content')
+  els = document.querySelectorAll('.nav-link')
+  for (idx in els) {
+    if (els[idx].nodeName != 'A') { continue }
+    els[idx].addEventListener('click', function() {
+      bootstrap.Collapse.getOrCreateInstance(navcnt).hide()
+      return true
+    })
+  }
+})
+
+document.addEventListener("DOMContentLoaded", function() {
   slides = document.getElementsByClassName('carousel','slide')
   for (el in slides) {
     if (slides[el].nodeName != 'DIV') { continue }

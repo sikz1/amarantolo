@@ -30,12 +30,12 @@ a:hover {
 }
 
 .nav-item {
-  padding: 0 2rem;
+  border-radius: 3rem;
+  background-color: #333;
 }
 
 .nav-offer {
-  background-color: #e57a36;
-  border-radius: 3rem;
+  background-color: #e57a36 !important;
 }
 
 .bg {
