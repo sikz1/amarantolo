@@ -175,6 +175,7 @@ a:hover {
 
 .carousel-item img {
   height: 42vh !important;
+  width: 100% !important;
 }
 
 #active_gallery .carousel-content {
@@ -184,7 +185,7 @@ a:hover {
 
 #active_gallery .carousel-item img {
   height: auto !important;
-  width: 100% !important;
+/*  width: 100% !important;*/
 }
 
 .modal-footer {
